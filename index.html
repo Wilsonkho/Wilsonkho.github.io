@@ -1,19 +1,68 @@
 <!DOCTYPE html>
 <html>
 <style>
+body{
+	height: 100%;
+	margin: 0;
+}
 #side-bar{
 	background-color: lightblue;
 	float: left;
-	height: 100%;
+	height: 100vh;
+	width: 10%;
+	display: block;
+}
+#content{
+	float: right;
+	width: 75%;
+	height:100%;
+	padding-right: 10%;
+	padding-left: 5%;
+}
+#entry {
+	border-style: solid;
+	border-width: 1px;
+	padding: 25px;
+}
+#title {
+/*	background-color: steelblue;*/
+	width: 90%;
+	float:right;
+	height: 75px;
+	padding: 0;
+	text-align: center;
+
 }
 </style>
 
 <body>
-
-<div id="side-bar"> <H1>Blog Contents</H1></div>
-<h1>Wilson's Github Blog</h1>
-<p>For the past couple weeks, I have been looking into the Usihidi Project. I believe they would really benefit by suggesting to their developers that MAMP would be a good tool to use for local hosting. I plan on making a screen cast on how to set it up, add MAMP to the read me and post any replies or emails that I may get from the developers on the Usihidi project.</p>
-
+	<div id="title"><h1>Wilson's Github Blog<h1></div>
+	<div id="side-bar"> 
+		<H3>Blog Contents</H3>
+		<ul>
+			Ushahidi
+		</ul>
+	</div>
+	<div id="content">
+		<p id="entry">
+			Adding to the read me file and suggesting the use of MAMP on a pull request and confirming it works for OSX. Picture
+			<br>
+			<br>
+			April 6, 2015
+		</p> 
+		<p id="entry"> 
+			Heres the link to the screen cast demonstrating using MAMP to host Usihidi. LINK
+			<br>
+			<br>
+			April 6, 2015
+		</p>
+		<p id="entry">
+			For the past couple days, I have been looking into the Usahidi Project. I believe they would really benefit by suggesting to their developers that MAMP would be a good tool to use for local hosting. I plan on making a screen cast on how to set it up, add MAMP to the read me and post any replies or emails that I may get from the developers on the Usihidi project. 
+			<br>
+			<br> 
+			April 4, 2015
+		</p>
+	</div>
 </body>
 
 </html>
